@@ -1,7 +1,7 @@
 {
   "name": "react-jsxstring-to-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "React plugin to convert jsx string to react component",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,14 +10,27 @@
     "watch": "tsc --watch",
     "prepublish": "tsc"
   },
-  "author": "",
+  "keywords": [
+    "react",
+    "jsxstring",
+    "react-jsxstring",
+    "react-jsxstring-to-react",
+    "react-jsxstring-to",
+    "react-plugin",
+    "jsxstring-to-react",
+    "react-component",
+    "jsx-component"
+  ],
+  "author": "Gihan Rangana<itsmerangana@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/uuid": "^9.0.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "uuid": "^9.0.0"
   }
